@@ -6,7 +6,7 @@ import '@fontsource/ibm-plex-mono/500.css'
 import '@fontsource/ibm-plex-mono/600.css'
 import './styles.css'
 const isIntelligenceMap = window.location.pathname.replace(/\/$/, '') === '/intelligence-map'
-const App = lazy(() => import('./App'))
+const App = lazy(() => import('./dashboard/Dashboard'))
 const IntelligenceMapPage = lazy(() => import('./features/intelligence-map/IntelligenceMapPage'))
 
 createRoot(document.getElementById('root')!).render(
